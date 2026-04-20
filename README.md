@@ -161,10 +161,51 @@ POST   /api/missions/complete/{id} # Complete mission
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Team & Contributors
+
+### 🚀 Author
 
 **Sumit Sargam**
+
+* GitHub: https://github.com/sumitsargam1510
+* LinkedIn: https://www.linkedin.com/in/sumit-sargam-6209a9334/
+
+---
+
+### 🤝 Contributors
+
 **Samriddhi Srivastava**
+
+* GitHub: https://github.com/partner1-username
+
+**Your Partner 2 Name**
+
+* GitHub: https://github.com/partner2-username
+
+---
+
+## 🌟 Contribution
+
+Contributions are welcome!
+If you'd like to improve PlanetPulse:
+
+```bash
+# Fork the repo
+# Create a new branch
+git checkout -b feature/your-feature-name
+
+# Make changes and commit
+git commit -m "Added new feature"
+
+# Push and create PR
+git push origin feature/your-feature-name
+```
+
+---
+
+## 💡 Acknowledgement
+
+Special thanks to all contributors who helped build and improve PlanetPulse 🌍
 
 * GitHub: https://github.com/sumitsargam1510
 * LinkedIn: https://www.linkedin.com/in/sumit-sargam-6209a9334/

@@ -164,6 +164,7 @@ POST   /api/missions/complete/{id} # Complete mission
 ## 👨‍💻 Author
 
 **Sumit Sargam**
+**Samriddhi Srivastava**
 
 * GitHub: https://github.com/sumitsargam1510
 * LinkedIn: https://www.linkedin.com/in/sumit-sargam-6209a9334/

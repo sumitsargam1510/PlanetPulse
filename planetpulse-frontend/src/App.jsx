@@ -8,6 +8,7 @@ import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import About from "./pages/About";
 import Leaderboard from "./pages/Leaderboard";
+import Marketplace from "./pages/Marketplace";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/about" element={<About />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
+        <Route path="/market" element={<Marketplace />} />
 
         {/* 🔓 Public Tracker */}
         <Route path="/tracker" element={<Tracker />} />

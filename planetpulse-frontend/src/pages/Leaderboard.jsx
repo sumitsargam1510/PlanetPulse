@@ -39,15 +39,27 @@ export default function Leaderboard(){
           </p>
         ) : (
           <ul className="space-y-4">
-            {users.map((u,i)=>(
-              <li key={i}
-                className="flex justify-between bg-white/30 p-4 rounded"
-              >
-                <span>#{i+1} {u.name}</span>
-                <span>{u.ecoPoints} pts</span>
-              </li>
-            ))}
-          </ul>
+
+{users.map((u,i)=>(
+  <li key={i}
+    className={`flex justify-between items-center p-4 rounded-lg ${
+      i === 0 ? "bg-yellow-300 text-black" :
+      i === 1 ? "bg-gray-300 text-black" :
+      i === 2 ? "bg-orange-300 text-black" :
+      "bg-white/30"
+    }`}
+  >
+    <span className="font-bold">
+      🍀{i+1} {u.name}
+    </span>
+
+    <span className="font-semibold">
+      {u.ecoPoints} pts
+    </span>
+  </li>
+))}
+
+</ul>
         )}
 
       </div>

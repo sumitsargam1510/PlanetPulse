@@ -65,6 +65,8 @@ function Navbar() {
               }`
             }>Leaderboard</NavLink>
 
+            <NavLink to="/market">Marketplace</NavLink>
+
             {isAuthenticated ? (
               <button
                 onClick={handleLogout}

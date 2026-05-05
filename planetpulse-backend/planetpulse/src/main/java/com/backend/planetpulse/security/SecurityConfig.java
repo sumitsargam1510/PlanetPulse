@@ -25,7 +25,7 @@ public class SecurityConfig {
             throws Exception {
 
         http
-                .cors(cors -> cors.configurationSource(corsConfigurationSource()))
+                .cors(cors -> cors.configurationSource(corsConfigurationSource())) // ✅ CORS enabled
                 .csrf(csrf -> csrf.disable())
                 .sessionManagement(session ->
                         session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
@@ -46,8 +46,9 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(List.of(
-                "http://localhost:5173",   // Vite
-                "http://localhost:3000"    // CRA
+                "http://localhost:5173",
+                "http://localhost:3000",
+                "https://planet-pulse-ruby.vercel.app"  // ✅ ADD THIS (IMPORTANT)
         ));
 
         configuration.setAllowedMethods(List.of(
